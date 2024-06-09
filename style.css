@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+} 
+.logo{
+    background-image: url("chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+     background-image:cover;
+    height: 50px;
+    width:100% ;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border : 2px solid white ;
+}
+/*box2*/
+.add-first {
+    color: #cccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/*Box 3*/ 
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 187, 0);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1 rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2 rem;
+    color: black;
+}
+/*BOX 4*/
+span {
+    font-size: 0.7 rem;
+}
+.nav-second{
+    font-size: 0.85 rem;
+    font-weight: 700;
+} 
+/*box5*/
+
+.nav-cart i {
+    font-size: 30px;
+    
+}
+.nav-cart{
+    font-size: 0.85 rem;
+    font-weight: 700;
+}
+.panel{
+   display:flex;
+   justify-content: space-evenly;
+   height : 40px;
+   background-color : #222f3d;
+   color : white;
+   align-items: center;
+}
+.panel-icon{ 
+     font-size: 1 rem;
+    font-weight: 700;
+
+}
+.panel-oops p {
+    display: inline;
+   margin-left: 15px ;
+    
+}
+.panel-oops{
+    font-size: 0.85rem;
+    width: 70%;
+
+}
+.panel-deal{
+    display: flex;
+    font-size: 1 rem;
+    font-weight: 700;
+
+}
+.hero-section{
+    display: flex;
+    background-image:url("beautyprod.jpg");
+    height: 400px;
+    background-image: cover;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 40px;
+    font-size: 0.85 rem;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 22px;
+    
+}
+.hero-msg a{
+    text-decoration: none;
+    color:#007185; 
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+        height: 820px;
+        background-color:white;
+
+        background-color:#ffd8c5;
+        
+    }
+    .Mainbox1{
+        display:flex;
+        justify-content: space-evenly;
+    
+        
+    }
+    .boxbig{
+        display: flex;
+        flex-direction: column;
+    
+        height: 400px;
+    width: 23%;
+    justify-content:space-evenly;
+    background-color: white;
+    
+    }
+    
+    .game{
+        display: flex;
+        flex-direction: column;
+        height: 25%;
+        
+    }
+    
+    .part1{
+        
+        display: flex;
+        flex-direction: column;
+        height: 165px;
+        justify-content: space-evenly;
+        height: 70%;
+        
+    }
+    .type{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .head{
+        display: flex;
+        height: 165px;
+    
+        flex-direction: column;
+        width: 45%;
+        justify-content: space-evenly;
+    }
+.pichead{
+    background-image: url("headphones.jpg");
+    background-image: cover;
+    height: 140px;
+}
+.phonehead{
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+.keyboard{
+    display: flex;
+    height: 165px;
+
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-evenly;
+}
+.kb{
+background-image: url("keyboardbest.jpg");
+background-image: cover;
+height: 113px;
+}
+.keyear{
+display: flex;
+align-items: flex-end;
+font-size: 0.85rem;
+font-weight: 100;
+}
+
+
+        .part2{
+            display: flex;
+            
+        height: 165px;
+        
+        justify-content: space-evenly;
+        margin-bottom: 20%;
+    
+    }
+    .mouse{
+        display: flex;
+        height: 165px;
+    
+        flex-direction: column;
+        width: 45%;
+        justify-content: space-evenly;
+    }
+    .MOC{
+    background-image: url("mousetake.jpg");
+    background-image: cover;
+    height: 92px;
+    }
+    .mic{
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.85rem;
+    font-weight: 100;
+    }
+       
+    .chairs{
+        
+            display: flex;
+            height: 165px;
+        
+            flex-direction: column;
+            width: 45%;
+            justify-content: space-evenly;
+        }
+        .chairspicture{
+        background-image: url("chairssnew.jpg");
+        background-image: cover;
+        height: 165px;
+        width:107px;
+        }
+        .chairdefine{
+        display: flex;
+        align-items: flex-end;
+        font-size: 0.85rem;
+        font-weight: 100;
+        }
+    
+    .linkpoot{
+        display: flex;
+        height: 5%;
+        color:#007185;
+    }
+    
+    .newyear{
+       
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: 400px;
+    width: 23%;
+    justify-content:space-evenly;
+    }
+.pic{
+    background-image: url("new year.jpg");
+        background-image: cover;
+        height:300px;
+}
+.link{
+    color: #007185;
+}
+
+
+    .PCs{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: 400px;
+    width: 23%;
+    justify-content:space-evenly;
+    
+    }.speaker{
+        
+        background-image: url("pcs.jpg");
+        background-image: cover;
+        height: 300px;
+        width:100%;
+    }
+       
+    .link2{
+        color: #007185;
+    }
+    
+    
+        .spacerefresh{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            height: 400px;
+        width: 23%;
+        justify-content:space-evenly;
+        }
+   
+    .homey{
+        background-image: url("changebeauty.jpg");
+            background-image: cover;
+            height:300px;
+    }
+    .choice{
+        color: #007185;
+    
+       
+    }
+
+    .extraspace{
+        height: 10px;
+    }
+.bigbox2{
+    background-color:#ffd8c5;
+    display:flex;
+    justify-content: space-evenly;
+height: 400px;
+}
+.toys{
+         display: flex;
+         flex-direction: column;
+         background-color: white;
+         height: 400px;
+     width: 23%;
+     justify-content:space-evenly;
+     }
+
+ .pic2{
+     background-image: url("toys.jpg ");
+         background-image: cover;
+         height:300px;
+ }
+ .link3{
+     color: #007185;
+ }
+    
+.topdeals{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+width:23%;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.pic3{
+    background-image: url( "best deals.jpg");
+    background-image: cover;
+    height:180px;
+}
+.offer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:45%;
+    
+    
+}
+.seventy{
+    display: flex;
+    background-color: red;
+    height: 30px;
+    color: white;
+    align-items: center;
+width: 65%;
+    font-size: 0.85rem;
+    font-weight: 600;
+    justify-content:center;
+}
+
+.deal{
+    display: flex;
+    background-color: white;
+    color: red;
+    font-size: 0.85 rem;
+    font-weight: 700;
+    align-items: center;
+    
+    justify-content: center;
+    
+    
+}
+.link4{
+    color: #007185;
+}
+.Lunar{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+width: 23%;
+justify-content:space-evenly;
+}
+
+.pic4{
+    background-image: url("lunar new year.jpg");
+    background-image: cover;
+    height: 300px;
+}
+.link5{
+    color: #007185;
+}
+.lenovo{ 
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    justify-content: space-evenly;
+    height: 400px;
+
+    width: 23%;
+}
+    .pic5{
+    background-image: url("laptopevery.jpg");
+    background-image: cover;
+    height: 300px;
+    width: 100%;
+
+}
+.link6{
+    color: #007185;
+}
+
+
+
+.footcust{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  button{
+    width: 240px;
+    background-color: rgb(255, 187, 0);
+    color: black;
+    height: 40px;
+    border: 2px solid rgba(255, 166, 0, 0.93);
+    border-radius: 5px;
+    margin-top: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+
+}
+.catchy{
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+.user{
+    margin-top: 3px;
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.user a{
+    color: #007185;
+}
+
+
+
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+
+    display: flex;
+    height: 50px;
+    color:white;
+    background-color: #37475a;
+    font-size: 0.85rem;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel2{
+    height: 300px;
+    display: flex;
+    color: white;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 1px;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85 rem;
+    margin-top: 10px;
+    color:#ddd;
+}
+.foot-panel3{
+    display: flex;
+    border: 0.5px solid white;
+    background-color: #222f3d;
+color: white;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo2{
+
+    background-image: url("footer 3.png");
+    background-image: cover;
+    height: 50px;
+    width: 81px;
+}
+
+.foot-panel4{
+    border: 2px solid black;
+    height: 70px;
+    background-color: #0F1111;
+    color: #ddd;
+}
+.pages{
+
+    text-align: center;
+    font-size: 0.2 rem;
+    padding-top: 15px;
+}
+.copy{
+ 
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 10px;
+}
